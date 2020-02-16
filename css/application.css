@@ -196,7 +196,7 @@ a:active {
   src: url("../fonts/abolition-regular-webfont.eot");
   src: url("../fonts/abolition-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/abolition-regular-webfont.woff") format("woff"), url("../fonts/abolition-regular-webfont.ttf") format("truetype");
 }
-.main-heading {
+.main-header, .secondary-header {
   font-size: 5.625rem;
   color: white;
   text-transform: uppercase;
@@ -205,11 +205,9 @@ a:active {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
   margin: 12px 0 0;
 }
-
-.title {
+.main-title, .secondary-title {
   color: white;
   font-size: 1.625rem;
-  /* 26px/16px */
   letter-spacing: 0.065em;
   font-weight: 200;
   border-bottom: 2px solid;
@@ -218,7 +216,6 @@ a:active {
 
 .intro {
   font-size: 1.25em;
-  /* 20px/16px */
   line-height: 1.6;
 }
 
