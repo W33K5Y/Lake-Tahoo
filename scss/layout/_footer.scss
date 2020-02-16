@@ -1,0 +1,12 @@
+#first-page .main-footer {
+	 @extend %centered;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: 10px solid #ffa949;
+}
+#second-page .main-footer {
+	 @extend %centered;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: 10px solid #61B4FC;
+}
