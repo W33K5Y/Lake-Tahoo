@@ -1,25 +1,6 @@
 
 
-
-/* Float Clearfix ------------------ */
-
-.group:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.fish:before {
-  content:"Lets talk about some Bloody fish";
-  color: #ddd;
-  padding: 5px 10px;
-  text-transform: uppercase;
-  border: 2px solid #ffa949;
-  display:table;
-  clear: both;
-}
-
-
+// Media Queries 
 
 @media (max-width: 1024px) {
 

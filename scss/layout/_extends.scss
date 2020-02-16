@@ -2,23 +2,23 @@
 // Center text 
 
 %centered {
-			text-align: center;
+	text-align: center;
 }
 
 // Top Border
 
 %t-border {
-				border-top: 2px solid #dfe2e6;
+	border-top: 2px solid #dfe2e6;
 }
 
 //  Containers 
 
 %content {
 	width: 75%;
-			padding-left: 50px;
+	padding-left: 50px;
 	padding-right: 50px;
-		margin: auto;
-max-width: 960px;
+	margin: auto;
+	max-width: 960px;
 }
 
 // Collumns 
@@ -32,7 +32,7 @@ max-width: 960px;
 %clearfix {
 	&:after {
 		content: "";
-						display: table;
-				clear: both;
+		display: table;
+		clear: both;
 	}
 }

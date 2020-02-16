@@ -58,26 +58,23 @@ li {
 }
 
 /* Pseudo-classes ------------------ */
-#first-page a:link {
+a:link {
   color: #ffa949;
   text-decoration: none;
+}
+a:visited {
+  color: lightblue;
+}
+a:hover {
+  color: rgba(255, 169, 73, 0.4);
+}
+a:active {
+  color: lightcoral;
 }
 
 #second-page a:link {
   color: #61B4FC;
   text-decoration: none;
-}
-
-a:visited {
-  color: lightblue;
-}
-
-a:hover {
-  color: rgba(255, 169, 73, 0.4);
-}
-
-a:active {
-  color: lightcoral;
 }
 
 /* Main Headers for both pages */
@@ -95,15 +92,13 @@ a:active {
   background-size: cover;
 }
 
-#first-page .main-footer {
+.main-footer {
   padding-top: 60px;
   padding-bottom: 60px;
   border-bottom: 10px solid #ffa949;
 }
 
 #second-page .main-footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
   border-bottom: 10px solid #61B4FC;
 }
 
@@ -169,7 +164,7 @@ a:active {
   float: right;
 }
 
-.main-header, .secondary-header, #first-page .main-footer, #second-page .main-footer, .primary-content {
+.main-header, .secondary-header, .main-footer, .primary-content {
   text-align: center;
 }
 
