@@ -5,13 +5,13 @@
 }
 
 body {
-  color: #878787;
+  color: $color-text-base;
   margin: 0;
-  font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 1em/1.5 $stack-helvetica;
 }
 
 h1, h2 {
-  font-family: 'Abolition Regular', Helvetica, Arial, sans-serif;
+  font-family: $stack-abolition;
 }
 
 
@@ -21,7 +21,7 @@ h1 {
   text-transform: uppercase;
   font-weight: normal;
   line-height: 1.3;
-  text-shadow: 0 1px 1px rgba(0,0,0, .8);
+  text-shadow: 0 1px 1px $color-shadow ;
   margin: 12px 0 0;
 
 }
@@ -35,7 +35,7 @@ h2 {
 
 h3 {
   font-size: 1.25em; /* 20px/16px  */
-  color: #48525c;
+  color: $color-text-dark;
   line-height: 1.2;
   margin-bottom: 1.7em; /* 34px */
 }
@@ -43,7 +43,7 @@ h3 {
 img {
   max-width: 100%;
   margin-bottom: 20px;
-  border-radius: 10px;
+  border-radius: $br-main;
 }
 
 ul,
@@ -56,29 +56,29 @@ li {
 }
 
 /* Pseudo-classes ------------------ */
- a {
-&:link {
-  color: rgb(255, 169, 73);
-  text-decoration: none;
+a {
+  &:link {
+    color: $color-link-default;
+    text-decoration: none;
+  }
+
+
+  &:visited {
+    color: $color-link-visited;
+  }
+
+  &:hover {
+    color: rgba($color-link-default, .4);
+  }
+
+  &:active {
+    color: lightcoral;
+  }
+
 }
-
-
-&:visited {
-  color: lightblue;
-}
-
-&:hover {
-  color: rgba(255, 169, 73, .4);
-}
-
-&:active {
-  color: lightcoral;
-}
-
- }
 
 #second-page a:link {
-  color: #61B4FC;
+  color: $malibu;
   text-decoration: none;
 }
 

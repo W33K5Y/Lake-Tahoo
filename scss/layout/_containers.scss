@@ -20,13 +20,13 @@
   color: white;
   text-align: left;
   padding: 18% 24%;
-  border-top: 10px solid #ffa949;
+  border-top: 10px solid $color-prim;
   margin: 105px 0 60px;
   background: #434a52 url('../img/bear.jpg') no-repeat center;
   background-size: cover;
-  box-shadow: inset 0 0 50px 10px rgba(0,0,0, 1);
+  box-shadow: inset 0 0 50px 10px rgba($black, 1);
 
-  border-radius: 10px;
+  border-radius: $br-main;
 
 }
 
@@ -35,7 +35,7 @@
     color: #ddd;
     padding: 5px 10px;
     text-transform: uppercase;
-    border: 2px solid #ffa949;
+    border: 2px solid $color-prim;
     display:table;
     clear: both;
   }
@@ -43,17 +43,17 @@
 /* Secondary Page */
 
 .ski-resorts {
-  color: rgb(255, 255, 255);
+  color: $white;
   text-align: center;
   padding: 10px 12px;
   margin: 50px 0 20px;
-  border-top: 10px solid #61B4FC;
+  border-top: 10px solid $malibu;
   background: linear-gradient(
-   rgba(0, 0, 0, 0.5),
-   rgba(0, 0, 0, 0.6)
+   rgba($black, 0.5),
+   rgba($black, 0.6)
    ), url('../img/ski-resort.jpg') no-repeat center;
   background-size: cover;
-  text-shadow: 2px 2px 10px 2px rgba(0,0,0, 1),
+  text-shadow: 2px 2px 10px 2px rgba($black, 1),
   3px 5px 5px 2px,
   1px 2px 10px 5px,
   5px 3px 10px 1px,

@@ -2,8 +2,8 @@
 	 @extend %centered;
   padding-top: 60px;
   padding-bottom: 60px;
-  border-bottom: 10px solid #ffa949;
+  border-bottom: 10px solid $color-prim;
 }
 #second-page .main-footer {
-  border-bottom: 10px solid #61B4FC;
+  border-bottom: 10px solid $malibu;
 }
