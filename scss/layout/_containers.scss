@@ -5,6 +5,16 @@
   @extend %t-border;
   padding-top: 25px;
   padding-bottom: 95px;
+
+  @media #{$brk-narrow} {
+    width: 100%;
+    padding: 20px;
+    border-top: none;
+  }
+
+  @media #{$brk-wide} {
+    width: 90%;
+  }
 }
 
 .secondary-content {
@@ -14,6 +24,15 @@
   padding-top: 80px;
   padding-bottom: 70px;
   border-bottom: 2px solid #dfe2e6;
+
+  @media #{$brk-narrow} {
+    width: 100%;
+    padding: 20px;
+    border-top: none;
+  }
+  @media #{$brk-wide} {
+    width: 90%;
+  }
 }
 /* Home Page */
 .wildlife {
@@ -28,17 +47,22 @@
 
   border-radius: $br-main;
 
+  @media #{$brk-wide} {
+    padding: 10% 12%;
+    margin: 50px 0 20px;
+  }
+
 }
 
-  .fish:before {
-    content:"Lets talk about some Bloody fish";
-    color: #ddd;
-    padding: 5px 10px;
-    text-transform: uppercase;
-    border: 2px solid $color-prim;
-    display:table;
-    clear: both;
-  }
+.fish:before {
+  content:"Lets talk about some Bloody fish";
+  color: #ddd;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  border: 2px solid $color-prim;
+  display:table;
+  clear: both;
+}
 
 /* Secondary Page */
 
